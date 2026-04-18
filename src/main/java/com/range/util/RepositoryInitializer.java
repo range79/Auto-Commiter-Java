@@ -26,7 +26,7 @@ public class RepositoryInitializer {
         TransportConfigCallback transportConfigCallback = getTransportConfigCallback(props.sshKeyPath());
 
         try (Git _ = Git.cloneRepository()
-                .setURI(props.repoPath())
+                .setURI(props.repositoryURL())
                 .setDirectory(directory)
                 .setTransportConfigCallback(transportConfigCallback)
                 .call()) {
