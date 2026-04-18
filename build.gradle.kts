@@ -47,11 +47,13 @@ graalvmNative {
     binaries {
         named("main") {
             buildArgs.add("-H:+AddAllCharsets")
+            buildArgs.add("--enable-all-security-services")
             buildArgs.add("--add-exports=java.base/sun.security.x509=ALL-UNNAMED")
             buildArgs.add("--add-exports=java.base/sun.security.util=ALL-UNNAMED")
 
             buildArgs.add("--initialize-at-build-time=sun.security.x509.X509CertImpl")
             buildArgs.add("--initialize-at-build-time=sun.security.x509.X509CertInfo")
+            buildArgs.add("--initialize-at-build-time=com.jcraft.jsch")
 
             buildArgs.add("-H:IncludeResources=logback.xml")
             buildArgs.add("--initialize-at-run-time=org.fusesource.jansi")

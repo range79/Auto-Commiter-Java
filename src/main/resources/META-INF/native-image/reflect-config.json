@@ -26,5 +26,129 @@
     "name": "org.fusesource.jansi.internal.CLibrary",
     "allDeclaredMethods": true,
     "allPublicMethods": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.HMACSHA1",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.HMACSHA256",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.HMACSHA512",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.HMACMD5",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.AES128CBC",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.AES192CBC",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.AES256CBC",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.AES128CTR",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.AES192CTR",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.AES256CTR",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.TripleDESCBC",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.Random",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.KeyPairGenRSA",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.KeyPairGenDSA",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.KeyPairGenECDSA",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SignatureRSA",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SignatureDSA",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SignatureECDSA",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.PBKDF2",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SHA1",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SHA256",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SHA384",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.SHA512",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.MD5",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.DiffieHellman",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.jce.ECDH",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.UserAuthNone",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.UserAuthPassword",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.UserAuthKeyboardInteractive",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.UserAuthPublicKey",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.CipherNone",
+    "allPublicConstructors": true
   }
 ]
