@@ -1,14 +1,14 @@
-package service;
+package com.range.service;
 
 import com.range.exception.RepoInitException;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.range.properties.RepositoryProperties;
-import util.CommitGenerator;
+import com.range.util.CommitGenerator;
 
-import util.RepositoryInitializer;
-import util.RepositoryPusher;
+import com.range.util.RepositoryInitializer;
+import com.range.util.RepositoryPusher;
 
 import java.io.File;
 import java.io.IOException;

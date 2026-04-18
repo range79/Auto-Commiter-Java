@@ -1,4 +1,4 @@
-package util;
+package com.range.util;
 
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;

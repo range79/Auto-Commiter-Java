@@ -1,7 +1,7 @@
 package com.range;
 
 import com.range.config.RepositoryPropertiesFactory;
-import service.GitAutomationService;
+import com.range.service.GitAutomationService;
 import org.fusesource.jansi.AnsiConsole;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

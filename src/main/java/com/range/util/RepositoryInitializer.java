@@ -1,5 +1,4 @@
-package util;
-
+package com.range.util;
 
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;
@@ -18,24 +17,21 @@ import com.range.properties.RepositoryProperties;
 
 import java.io.File;
 
-public class RepositoryPusher {
-    private static final Logger log = LoggerFactory.getLogger(RepositoryPusher.class);
+public class RepositoryInitializer {
+    private static final Logger log = LoggerFactory.getLogger(RepositoryInitializer.class);
 
-    public static void pushChanges(RepositoryProperties props) throws GitAPIException {
+    public static void initProject(RepositoryProperties props) throws GitAPIException {
         File directory = new File(props.repoPath());
 
         TransportConfigCallback transportConfigCallback = getTransportConfigCallback(props.sshKeyPath());
 
-        try (Git git = Git.open(directory)) {
-            git.push()
-                    .setTransportConfigCallback(transportConfigCallback)
-                    .setRemote("origin")
-                    .call();
+        try (Git _ = Git.cloneRepository()
+                .setURI(props.repoPath())
+                .setDirectory(directory)
+                .setTransportConfigCallback(transportConfigCallback)
+                .call()) {
 
-            log.info("Changes pushed successfully to: {}", props.repositoryURL());
-        } catch (Exception e) {
-            log.error("Failed to push changes: {}", e.getMessage());
-            throw new RuntimeException("Push operation failed", e);
+            log.info("Project cloned successfully to: {}", props.repoPath());
         }
     }
 
