@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962648e0-1bae-4f35-9907-53e7e6d25791" name="Changes" comment="" />
+    <list default="true" id="962648e0-1bae-4f35-9907-53e7e6d25791" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-commiter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/range/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/reflect-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/native-image/resource-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/RepositoryPropertiesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/config/RepositoryPropertiesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/RepoInitException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/exception/RepoInitException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/properties/RepositoryProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/properties/RepositoryProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/GitAutomationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/GitAutomationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/RepositoryInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RepositoryInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/RepositoryPusher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RepositoryPusher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +45,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Auto-Commiter-Java [:Main.main()].executor": "Run",
+    "Gradle.Auto-Commiter-Java [:com.range.Main.main()].executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",

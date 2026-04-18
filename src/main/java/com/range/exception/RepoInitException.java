@@ -1,4 +1,4 @@
-package exception;
+package com.range.exception;
 
 import org.eclipse.jgit.api.errors.GitAPIException;
 

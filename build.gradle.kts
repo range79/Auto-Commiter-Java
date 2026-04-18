@@ -18,6 +18,7 @@ repositories {
 dependencies {
     implementation("org.slf4j:slf4j-api:2.0.17")
     implementation("ch.qos.logback:logback-classic:1.5.32")
+    implementation("org.fusesource.jansi:jansi:2.4.3")
     implementation("org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:7.6.0.202603022253-r")
     implementation("org.eclipse.jgit:org.eclipse.jgit:7.6.0.202603022253-r")
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
@@ -36,7 +37,7 @@ graalvmNative {
 graalvmNative {
     binaries {
         named("main") {
-            mainClass.set("Main")
+            mainClass.set("com.range.Main")
 
             imageName.set("auto-commiter")
         }
@@ -51,6 +52,9 @@ graalvmNative {
 
             buildArgs.add("--initialize-at-build-time=sun.security.x509.X509CertImpl")
             buildArgs.add("--initialize-at-build-time=sun.security.x509.X509CertInfo")
+
+            buildArgs.add("-H:IncludeResources=logback.xml")
+            buildArgs.add("--initialize-at-run-time=org.fusesource.jansi")
 
             buildArgs.add("--enable-https")
             buildArgs.add("--enable-http")

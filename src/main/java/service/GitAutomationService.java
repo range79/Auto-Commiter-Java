@@ -1,10 +1,10 @@
 package service;
 
-import exception.RepoInitException;
+import com.range.exception.RepoInitException;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import properties.RepositoryProperties;
+import com.range.properties.RepositoryProperties;
 import util.CommitGenerator;
 
 import util.RepositoryInitializer;

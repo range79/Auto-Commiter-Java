@@ -1,6 +1,6 @@
-package config;
+package com.range.config;
 
-import properties.RepositoryProperties;
+import com.range.properties.RepositoryProperties;
 import java.nio.file.Paths;
 import java.util.Optional;
 
@@ -23,7 +23,10 @@ public class RepositoryPropertiesFactory {
     private String getRequiredEnv(String key) {
         String value = System.getenv(key);
         if (value == null || value.isBlank()) {
-            throw new IllegalStateException(String.format("Required environment variable '%s' is missing or empty", key));
+            throw new IllegalStateException(String.format(
+                "Required environment variable '%s' is missing or empty. Please set it using 'export %s=your_value' before running.", 
+                key, key
+            ));
         }
         return value;
     }

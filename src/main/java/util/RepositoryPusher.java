@@ -14,7 +14,7 @@ import org.eclipse.jgit.transport.ssh.jsch.OpenSshConfig;
 import org.eclipse.jgit.util.FS;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import properties.RepositoryProperties;
+import com.range.properties.RepositoryProperties;
 
 import java.io.File;
 

@@ -1,0 +1,12 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": ".*jansi.*"
+      },
+      {
+        "pattern": "logback.xml"
+      }
+    ]
+  }
+}

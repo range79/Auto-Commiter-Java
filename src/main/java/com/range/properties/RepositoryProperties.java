@@ -1,4 +1,4 @@
-package properties;
+package com.range.properties;
 public record RepositoryProperties (
         String repositoryURL,
         String sshKeyPath,
