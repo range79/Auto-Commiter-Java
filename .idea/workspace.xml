@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="962648e0-1bae-4f35-9907-53e7e6d25791" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/range/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/GitAutomationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/service/GitAutomationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/CommitGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/util/CommitGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RepositoryChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/util/RepositoryChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RepositoryInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/util/RepositoryInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RepositoryPusher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/util/RepositoryPusher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/range/config/RepositoryPropertiesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/range/config/RepositoryPropertiesFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",

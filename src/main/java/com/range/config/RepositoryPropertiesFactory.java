@@ -7,8 +7,8 @@ import java.util.Optional;
 public class RepositoryPropertiesFactory {
 
     public RepositoryProperties readRepositoryProperties() {
-        String repoUrl = getRequiredEnv("GITHUB_REPO_URL");
-        String sshKeyPath = getRequiredEnv("GITHUB_SSH_KEY_PATH");
+        String repoUrl = getRequiredEnv("REPO_URL");
+        String sshKeyPath = getRequiredEnv("SSH_KEY_PATH");
 
         String repoPath = Optional.ofNullable(System.getenv("LOCAL_REPO_PATH"))
                 .orElseGet(() -> Paths.get(System.getProperty("user.dir"), "repo").toString());
