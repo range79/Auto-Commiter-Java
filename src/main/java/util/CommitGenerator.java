@@ -39,15 +39,25 @@ public class CommitGenerator {
         }
     }
 
-    private void makeCommit(Git git) throws GitAPIException {
-
+    private void makeCommit(Git git) throws GitAPIException, IOException {
+        modifyFile();
+        
         String message = messages[random.nextInt(messages.length)];
-
 
         git.add().addFilepattern(".").call();
 
-                git.commit()
+        git.commit()
                 .setMessage(message)
                 .call();
+    }
+
+    private void modifyFile() throws IOException {
+        File activityFile = new File(repoDir, "activity.txt");
+        java.nio.file.Files.writeString(
+                activityFile.toPath(), 
+                "Update at " + java.time.LocalDateTime.now() + " - " + java.util.UUID.randomUUID() + "\n", 
+                java.nio.file.StandardOpenOption.CREATE, 
+                java.nio.file.StandardOpenOption.APPEND
+        );
     }
 }
