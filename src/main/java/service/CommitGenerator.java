@@ -3,11 +3,20 @@ package service;
 import properties.RepositoryProperties;
 
 public class CommitGenerator {
-    private
+    private RepositoryProperties repositoryProperties;
     public CommitGenerator(RepositoryProperties repositoryProperties){
-        this.
-
+        this.repositoryProperties=repositoryProperties;
     }
+public
+
+
+
+
+
+
+
+
+
 
 
 
