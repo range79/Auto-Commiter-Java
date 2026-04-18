@@ -1,5 +1,8 @@
-import org.eclipse.jgit.api.Git;
+import config.RepositoryPropertiesFactory;
+import service.GitAutomationService;
 
-void main(){
-
+void main() {
+    RepositoryPropertiesFactory properties = new RepositoryPropertiesFactory();
+    GitAutomationService service = new GitAutomationService(properties.readRepositoryProperties());
+    service.run();
 }
