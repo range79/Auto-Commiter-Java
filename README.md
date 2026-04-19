@@ -47,7 +47,7 @@ To run this bot automatically on an hourly schedule using GitHub Actions:
 ```yaml
 on:
   schedule:
-    - cron: '30 8,23 * * *'
+    - cron: '30 4,19 * * *'
   workflow_dispatch:
 
 jobs:
