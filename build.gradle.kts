@@ -58,6 +58,7 @@ graalvmNative {
             buildArgs.add("--initialize-at-build-time=sun.security.x509.X509CertImpl")
             buildArgs.add("--initialize-at-build-time=sun.security.x509.X509CertInfo")
             buildArgs.add("--initialize-at-build-time=com.jcraft.jsch")
+            buildArgs.add("--initialize-at-run-time=com.jcraft.jsch.PortWatcher")
 
             buildArgs.add("-H:IncludeResources=logback.xml")
             buildArgs.add("--initialize-at-run-time=org.fusesource.jansi")
