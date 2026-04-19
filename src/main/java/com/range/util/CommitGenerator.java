@@ -28,7 +28,7 @@ public class CommitGenerator {
     }
 
     public void generateCommits() throws IOException, GitAPIException {
-        int commitNumber = random.nextInt(3) + 1;
+        int commitNumber = random.nextInt(12) + 1;
 
         try (Git git = Git.open(repoDir)) {
 
