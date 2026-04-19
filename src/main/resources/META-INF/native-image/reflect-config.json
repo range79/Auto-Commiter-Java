@@ -104,31 +104,43 @@
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.SHA1",
+    "name": "com.jcraft.jsch.bc.SHA1",
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.SHA256",
+    "name": "com.jcraft.jsch.bc.SHA256",
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.SHA384",
+    "name": "com.jcraft.jsch.bc.SHA384",
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.SHA512",
+    "name": "com.jcraft.jsch.bc.SHA512",
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.MD5",
+    "name": "com.jcraft.jsch.bc.MD5",
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.DiffieHellman",
+    "name": "com.jcraft.jsch.bc.DiffieHellman",
     "allPublicConstructors": true
   },
   {
-    "name": "com.jcraft.jsch.jce.ECDH",
+    "name": "com.jcraft.jsch.bc.ECDH",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.bc.HMACSHA1",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.bc.HMACSHA256",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.jcraft.jsch.bc.HMACSHA512",
     "allPublicConstructors": true
   },
   {
@@ -149,6 +161,11 @@
   },
   {
     "name": "com.jcraft.jsch.CipherNone",
+    "allPublicConstructors": true
+  },
+  {
+    "name": "org.bouncycastle.jce.provider.BouncyCastleProvider",
+    "allDeclaredConstructors": true,
     "allPublicConstructors": true
   }
 ]

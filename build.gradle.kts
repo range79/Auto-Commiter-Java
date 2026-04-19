@@ -19,7 +19,11 @@ dependencies {
     implementation("org.slf4j:slf4j-api:2.0.17")
     implementation("ch.qos.logback:logback-classic:1.5.32")
     implementation("org.fusesource.jansi:jansi:2.4.3")
-    implementation("org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:7.6.0.202603022253-r")
+    implementation("org.bouncycastle:bcprov-jdk18on:1.80")
+    implementation("org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:7.6.0.202603022253-r") {
+        exclude(group = "com.jcraft", module = "jsch")
+    }
+    implementation("com.github.mwiede:jsch:0.2.22")
     implementation("org.eclipse.jgit:org.eclipse.jgit:7.6.0.202603022253-r")
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")

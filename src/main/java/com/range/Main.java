@@ -5,9 +5,15 @@ import com.range.service.GitAutomationService;
 import org.fusesource.jansi.AnsiConsole;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import java.security.Security;
 
 public class Main {
     private static final Logger log = LoggerFactory.getLogger(Main.class);
+
+    static {
+        Security.addProvider(new BouncyCastleProvider());
+    }
 
     public static void main(String[] args) {
         System.setProperty("logback.color", "true");
