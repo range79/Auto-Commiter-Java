@@ -40,6 +40,8 @@ public class RepositoryInitializer {
             @Override
             protected void configure(OpenSshConfig.Host host, Session session) {
                 session.setConfig("StrictHostKeyChecking", "no");
+                session.setConfig("PreferredAuthentications", "publickey");
+                session.setConfig("server_host_key", "ssh-ed25519,rsa-sha2-512,rsa-sha2-256");
             }
 
             @Override
