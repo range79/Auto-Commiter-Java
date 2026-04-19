@@ -50,6 +50,7 @@
   { "name": "com.jcraft.jsch.DHGEX1", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.DHGEX256", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.DHGN", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHXEC", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.ECDH", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.SignatureEdDSA", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.SignatureRSA", "allPublicConstructors": true },
@@ -135,10 +136,12 @@
   { "name": "com.jcraft.jsch.bc.SignatureDSA", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.bc.SignatureECDSA", "allPublicConstructors": true },
   { "name": "org.bouncycastle.jce.provider.BouncyCastleProvider", "allDeclaredConstructors": true, "allPublicConstructors": true },
-  { "name": "org.eclipse.jgit.lib.GcConfig$PackRefsMode" },
-  { "name": "org.eclipse.jgit.lib.CoreConfig$AutoCRLF" },
-  { "name": "org.eclipse.jgit.lib.CoreConfig$EOL" },
-  { "name": "org.eclipse.jgit.lib.CoreConfig$CheckStat" },
-  { "name": "org.eclipse.jgit.api.MergeCommand$FastForwardMode" },
-  { "name": "org.eclipse.jgit.api.ResetCommand$ResetType" }
+  { "name": "org.eclipse.jgit.lib.GcConfig$PackRefsMode", "allPublicMethods": true, "allDeclaredFields": true, "allPublicFields": true },
+  { "name": "org.eclipse.jgit.lib.CoreConfig$AutoCRLF", "allPublicMethods": true, "allDeclaredFields": true, "allPublicFields": true },
+  { "name": "org.eclipse.jgit.lib.CoreConfig$EOL", "allPublicMethods": true, "allDeclaredFields": true, "allPublicFields": true },
+  { "name": "org.eclipse.jgit.lib.CoreConfig$CheckStat", "allPublicMethods": true, "allDeclaredFields": true, "allPublicFields": true },
+  { "name": "org.eclipse.jgit.api.MergeCommand$FastForwardMode", "allPublicMethods": true, "allDeclaredFields": true, "allPublicFields": true },
+  { "name": "org.eclipse.jgit.api.ResetCommand$ResetType", "allPublicMethods": true, "allDeclaredFields": true, "allPublicFields": true },
+  { "name": "org.eclipse.jgit.lib.CoreConfig", "allPublicMethods": true, "allDeclaredMethods": true },
+  { "name": "org.eclipse.jgit.lib.GcConfig", "allPublicMethods": true, "allDeclaredMethods": true }
 ]
