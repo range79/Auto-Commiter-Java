@@ -134,5 +134,11 @@
   { "name": "com.jcraft.jsch.bc.SignatureRSA", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.bc.SignatureDSA", "allPublicConstructors": true },
   { "name": "com.jcraft.jsch.bc.SignatureECDSA", "allPublicConstructors": true },
-  { "name": "org.bouncycastle.jce.provider.BouncyCastleProvider", "allDeclaredConstructors": true, "allPublicConstructors": true }
+  { "name": "org.bouncycastle.jce.provider.BouncyCastleProvider", "allDeclaredConstructors": true, "allPublicConstructors": true },
+  { "name": "org.eclipse.jgit.lib.GcConfig$PackRefsMode" },
+  { "name": "org.eclipse.jgit.lib.CoreConfig$AutoCRLF" },
+  { "name": "org.eclipse.jgit.lib.CoreConfig$EOL" },
+  { "name": "org.eclipse.jgit.lib.CoreConfig$CheckStat" },
+  { "name": "org.eclipse.jgit.api.MergeCommand$FastForwardMode" },
+  { "name": "org.eclipse.jgit.api.ResetCommand$ResetType" }
 ]
