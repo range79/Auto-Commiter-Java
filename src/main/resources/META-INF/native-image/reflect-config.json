@@ -27,249 +27,86 @@
     "allDeclaredMethods": true,
     "allPublicMethods": true
   },
-  {
-    "name": "com.jcraft.jsch.DHEC256",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHEC384",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHEC521",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.ECDH256",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.ECDH384",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.ECDH521",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHG1",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHG14",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHG16",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHG18",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.DHGEX",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.SignatureEd25519",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.SignatureEd448",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.KeyPairGenEd25519",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.KeyPairGenEd448",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.CipherChaCha20",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.HMACSHA1",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.HMACSHA256",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.HMACSHA512",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.HMACMD5",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.AES128CBC",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.AES192CBC",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.AES256CBC",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.AES128CTR",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.AES192CTR",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.AES256CTR",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.TripleDESCBC",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.Random",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.KeyPairGenRSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.KeyPairGenDSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.KeyPairGenECDSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SignatureRSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SignatureDSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SignatureECDSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.PBKDF2",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SHA1",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SHA256",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SHA384",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.SHA512",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.MD5",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.DiffieHellman",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.jce.ECDH",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SHA1",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SHA256",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SHA384",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SHA512",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.MD5",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.DiffieHellman",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.ECDH",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.HMACSHA1",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.HMACSHA256",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.HMACSHA512",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SignatureRSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SignatureDSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.bc.SignatureECDSA",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.UserAuthNone",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.UserAuthPassword",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.UserAuthKeyboardInteractive",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.UserAuthPublicKey",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "com.jcraft.jsch.CipherNone",
-    "allPublicConstructors": true
-  },
-  {
-    "name": "org.bouncycastle.jce.provider.BouncyCastleProvider",
-    "allDeclaredConstructors": true,
-    "allPublicConstructors": true
-  }
+  { "name": "com.jcraft.jsch.DHEC256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHEC384", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHEC521", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHECN", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.ECDH256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.ECDH384", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.ECDH521", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHG1", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHG14", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHG15", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHG16", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHG17", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHG18", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHGEX", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHGEX1", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.DHGEX256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.SignatureEd25519", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.SignatureEd448", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.KeyPairGenEdDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.Random", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.KeyPairGenRSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.KeyPairGenDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.KeyPairGenECDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.SignatureRSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.SignatureDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.SignatureECDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.CipherNone", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.UserAuthNone", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.UserAuthPassword", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.UserAuthKeyboardInteractive", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.UserAuthPublicKey", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES128CBC", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES192CBC", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES256CBC", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES128CTR", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES192CTR", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES256CTR", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES128GCM", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.AES256GCM", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.TripleDESCBC", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.HMACSHA1", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.HMACSHA256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.HMACSHA512", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.HMACMD5", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.DiffieHellman", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.ECDH256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.ECDH384", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.ECDH521", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.ECDHN", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SHA1", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SHA256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SHA384", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SHA512", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.MD5", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureRSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureRSAN", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureRSASHA256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureRSASHA512", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureECDSA256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureECDSA384", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureECDSA521", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureECDSAN", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureEd25519", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.SignatureEd448", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.KeyPairGenRSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.KeyPairGenDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.KeyPairGenECDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.KeyPairGenEdDSA", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.jce.Random", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.SHA1", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.SHA256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.SHA384", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.SHA512", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.MD5", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.HMACSHA1", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.HMACSHA256", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.HMACSHA512", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.SignatureEd25519", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.SignatureEd448", "allPublicConstructors": true },
+  { "name": "com.jcraft.jsch.bc.KeyPairGenEdDSA", "allPublicConstructors": true },
+  { "name": "org.bouncycastle.jce.provider.BouncyCastleProvider", "allDeclaredConstructors": true, "allPublicConstructors": true }
 ]
