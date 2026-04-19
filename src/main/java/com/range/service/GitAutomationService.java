@@ -30,6 +30,12 @@ public class GitAutomationService {
                 RepositoryInitializer.initProject(properties);
             } else {
                 log.info("Repository already exists. Skipping clone, proceeding to automation...");
+                try (org.eclipse.jgit.api.Git git = org.eclipse.jgit.api.Git.open(repoDir)) {
+                    org.eclipse.jgit.lib.StoredConfig config = git.getRepository().getConfig();
+                    config.setString("remote", "origin", "url", properties.repositoryURL());
+                    config.save();
+                    log.debug("Remote 'origin' URL verified/updated to use SSH");
+                }
             }
 
             CommitGenerator commitGenerator = new CommitGenerator(repoDir);
